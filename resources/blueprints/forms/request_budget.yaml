@@ -1,0 +1,15 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: text
+        field:
+          input_type: text
+          antlers: false
+          display: Text
+          type: text
+          icon: text
+          listable: hidden
+          validate:
+            - required
